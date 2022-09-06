@@ -1,0 +1,9 @@
+<h1>Index</h1>
+<hr/>
+<?php
+echo 'Chegamos ao IndexController e dispararemos a action index';
+echo '<br />';
+foreach($this->view->dados as $indice => $valor) {
+	echo $valor.'<br />';
+}
+?>
